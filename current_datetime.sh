@@ -1,3 +1,3 @@
 #!/bin/bash
 # ceci affiche la date du sytème sous le format YYYY-MM-DD HH-MM-SS
-$DATE + "%Y-%m-%d %H-%M-%S"
+$DATE + "%Y-%m-%d %H:%M:%S"
