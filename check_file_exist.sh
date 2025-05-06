@@ -3,11 +3,11 @@
 
 # recuperation du nom du fichier et stockage de ce dernier dans la variable $ichier
 echo "Entrez le nom du fichier : "
-read $fichier
+read $filename
 
 # la condition de vérification si le fichier existe ou pas en retournant un message
-if [ -f $fichier ]; then
-  echo "Le fichier '$fichier' existe"
+if [ -f $filename ]; then
+  echo "Le fichier '$filename' existe"
 else
-  echo "le fichier '$fichier' n'existe pas"
+  echo "le fichier '$filename' n'existe pas"
 fi
